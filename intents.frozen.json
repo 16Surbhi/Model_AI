@@ -1,0 +1,138 @@
+{
+ "best frontier coding models": {
+  "prompt": "best frontier coding models",
+  "targetCategory": "general",
+  "archetype": "frontier",
+  "isCoding": true,
+  "weights": {
+   "quality": 3.6,
+   "affordability": 0,
+   "speed": 0.05,
+   "context": 0.2,
+   "privacy": 0.05,
+   "availability": 0.15
+  },
+  "signals": [
+   {
+    "id": "archetype-frontier",
+    "label": "Frontier / Maximum capability"
+   }
+  ],
+  "negatedMetrics": [],
+  "constraints": {
+   "excludeModels": [],
+   "excludeProviders": []
+  },
+  "taskProfile": [
+   "general",
+   "code"
+  ],
+  "excludeProviders": [],
+  "excludeModels": [],
+  "useCaseSummary": "Finding the best coding models for general tasks.",
+  "parserUsed": "cohere+deterministic",
+  "isCustomized": false
+ },
+ "budget coding models": {
+  "prompt": "budget coding models",
+  "targetCategory": "general",
+  "archetype": "budget",
+  "isCoding": true,
+  "weights": {
+   "quality": 0.85,
+   "affordability": 2.5,
+   "speed": 0.6,
+   "context": 0.65,
+   "privacy": 0.05,
+   "availability": 0.05
+  },
+  "signals": [
+   {
+    "id": "archetype-budget",
+    "label": "Budget-first Pareto mode"
+   }
+  ],
+  "negatedMetrics": [],
+  "constraints": {
+   "excludeModels": [],
+   "excludeProviders": []
+  },
+  "taskProfile": [
+   "general",
+   "code"
+  ],
+  "excludeProviders": [],
+  "excludeModels": [],
+  "useCaseSummary": "Find budget-friendly coding models for general tasks.",
+  "parserUsed": "cohere+deterministic",
+  "isCustomized": false
+ },
+ "balanced coding models": {
+  "prompt": "balanced coding models",
+  "targetCategory": "general",
+  "archetype": "balanced",
+  "isCoding": true,
+  "weights": {
+   "quality": 1.25,
+   "affordability": 0.05,
+   "speed": 0.05,
+   "context": 0.65,
+   "privacy": 0.05,
+   "availability": 0.05
+  },
+  "signals": [
+   {
+    "id": "no-stated-preference",
+    "label": "No stated preference - neutral method profile"
+   }
+  ],
+  "negatedMetrics": [],
+  "constraints": {
+   "excludeModels": [],
+   "excludeProviders": []
+  },
+  "taskProfile": [
+   "general",
+   "code"
+  ],
+  "excludeProviders": [],
+  "excludeModels": [],
+  "useCaseSummary": "Seeking a balanced coding model with good quality, affordability, and speed, while considering context, privacy, and availability.",
+  "parserUsed": "cohere+deterministic",
+  "isCustomized": false
+ },
+ "best coding model": {
+  "prompt": "best coding model",
+  "targetCategory": "general",
+  "archetype": "frontier",
+  "isCoding": true,
+  "weights": {
+   "quality": 3.6,
+   "affordability": 0,
+   "speed": 0.05,
+   "context": 0.2,
+   "privacy": 0.05,
+   "availability": 0.15
+  },
+  "signals": [
+   {
+    "id": "archetype-frontier",
+    "label": "Frontier / Maximum capability"
+   }
+  ],
+  "negatedMetrics": [],
+  "constraints": {
+   "excludeModels": [],
+   "excludeProviders": []
+  },
+  "taskProfile": [
+   "general",
+   "code"
+  ],
+  "excludeProviders": [],
+  "excludeModels": [],
+  "useCaseSummary": "Looking for the best coding model",
+  "parserUsed": "cohere+deterministic",
+  "isCustomized": false
+ }
+}

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "Model Compass paper code"
+type: software
+version: 1.0.0
+abstract: >-
+  Scoring implementation, analysis scripts, and manuscript source for the Model
+  Compass foundation-model recommendation paper. Third-party evaluation inputs
+  and generated cohort outputs are intentionally excluded pending redistribution
+  rights review.
+keywords:
+  - foundation models
+  - multi-attribute utility theory
+  - constant elasticity of substitution
+  - model recommendation
+authors:
+  - family-names: Agrawal
+    given-names: Surbhi
+    email: surbhiagrwal.rvitm@rvei.edu.in
+    affiliation: "Department of CSE (AI & ML), RV Institute of Technology & Management, Bangalore, India"
+  - family-names: Chouksey
+    given-names: Divy
+    email: divychouksey136@gmail.com
+    affiliation: "Department of CSE (AI & ML), RV Institute of Technology & Management, Bangalore, India"

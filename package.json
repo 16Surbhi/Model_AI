@@ -1,0 +1,7 @@
+{
+  "name": "model-compass-paper-code",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Source code and analysis scripts for the Model Compass paper"
+}
